@@ -12,11 +12,11 @@ Creating a custom build number for a Next.js project involves generating a uniqu
 
 
 ## USAGE:
-- If you just want the code, it is available in the <code> src </code> folder. You can copy the <code> src </code> folder to your project and use it.
+- If you just want the code, it is available in the <code> src </code> folder. You can copy the <code> src </code> folder to your project and use it or just copy the <code> index.ts </code> file to your project and use it.
  - In your package.json file, add the following scripts:
     ```json
     "scripts": {
-        "pre-build" : "node file-path/build-generator.ts",
+        "pre-build" : "node file-path/<file-name-containing-the-code>.ts",
     }
     ```
    - When you run <code> npm run pre-build </code> , it will generate a build number and store it in a file called <code> build-number.json </code> in the root directory of your project. You can access this file in your application and use the build number.
