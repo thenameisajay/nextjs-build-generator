@@ -12,21 +12,15 @@ Creating a custom build number for a Next.js project involves generating a uniqu
 
 
 ## USAGE:
-- Install the package using <code> npm install nextjs-build-generator </code>
-- Import the package : 
-    <code>
-      const buildNumberGenerator = require('nextjs-build-generator');
-    </code>
+- If you just want the code, it is available in the <code> src </code> folder. You can copy the <code> src </code> folder to your project and use it.
 
-- Generate a Build Number : 
-    <code>
-      buildNumberGenerator
-      console.log(`Build number generated: ${buildNumber}`);
-    </code> 
-- Run the Script :
-    <code>
-      npx nextjs-build-generator
-    </code>       
+- If you want to use the package, you can install it using npm (NOT-PUBLISHED-YET):
+
+    ```bash
+    npm install nextjs-build-number-generator
+    ```
+
+    
 
 
 
