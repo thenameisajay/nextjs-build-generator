@@ -1,0 +1,10 @@
+/src
+/node_modules
+
+.env
+.DS_Store
+
+/Screenshots
+
+tsconfig.json
+tsconfig.prod.json
